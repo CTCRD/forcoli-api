@@ -47,5 +47,9 @@
   "Campo": {
     "dataSource": "db",
     "public": true
+  },
+  "Opcion": {
+    "dataSource": "db",
+    "public": true
   }
 }
