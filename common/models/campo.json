@@ -17,10 +17,33 @@
     "requerido": {
       "type": "boolean",
       "default": true
+    },
+    "col": {
+      "type": "number",
+      "default": 2
+    },
+    "expandible": {
+      "type": "boolean",
+      "default": false
+    },
+    "adicional": {
+      "type": "boolean",
+      "default": false
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "opciones": {
+      "type": "hasMany",
+      "model": "Opcion",
+      "foreignKey": ""
+    },
+    "formulario": {
+      "type": "belongsTo",
+      "model": "Formulario",
+      "foreignKey": ""
+    }
+  },
   "acls": [
     {
       "accessType": "*",
