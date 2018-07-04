@@ -6,9 +6,12 @@
     "validateUpsert": true
   },
   "properties": {
-    "nombre": {
+    "etiqueta": {
       "type": "string",
       "required": true
+    },
+    "nombre": {
+      "type": "string"
     },
     "tipo": {
       "type": "string",
